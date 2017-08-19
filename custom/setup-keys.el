@@ -48,3 +48,32 @@
 
 ;; org-mode keybindings
 (global-set-key [f12] 'org-agenda)
+
+;;========================================
+;; 键绑定
+;;========================================
+
+;; C-t 设置标记 ;;
+(global-set-key (kbd "C-t") 'set-mark-command)
+
+;; C-x b => CRM bufer list
+(global-set-key "\C-xb" 'electric-buffer-list)
+
+;;---------- redo
+(global-set-key ( kbd "C-.") 'redo)
+
+;;========================================
+;;关闭当前缓冲区 Alt+4  ;; C-x 0
+(global-set-key (kbd "M-4") 'delete-window)
+;;关闭其它缓冲区 Alt+1  ;; C-x 1
+(global-set-key (kbd "M-1") 'delete-other-windows)
+;;水平分割缓冲区 Alt+2  ;; C-x 2
+(global-set-key (kbd "M-2") 'split-window-vertically)
+;;垂直分割缓冲区 Alt+3  ;; C-x 3
+(global-set-key (kbd "M-3") 'split-window-horizontally)
+;;切换到其它缓冲区 Alt+0 ;; C-x o
+(global-set-key (kbd "M-0") 'other-window)
+
+
+;;F10 显示/隐藏菜单栏 ;; M-x menu-bar-open
+;;(global-set-key (kbd "F10") 'menu-bar-mode)

@@ -1,9 +1,12 @@
 ;; init config
+
+;;包管理设置
 (require 'package)
 (setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
                          ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
 (package-initialize)
 
+;;安装所有packages.list中的包
 (defun install-packages ()
   "Install all required packages listed in packages.list."
   (interactive)
@@ -25,11 +28,13 @@
 ;; install packages listed in packages.list
 (install-packages)
 
-;; startup setting
+;; startup setting 全屏
 (setq inhibit-startup-message t)
-(if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
+
+;;检测是否存在 tool-bar-mode 关闭
+;;(if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 ;; make frame full-screen on startup
-(custom-set-variables '(initial-frame-alist '((fullscreen . maximized))))
+;;(custom-set-variables '(initial-frame-alist '((fullscreen . maximized))))
 
 ;; set load path
 (let* ((my-site-lisp-dir (concat user-emacs-directory "site-lisp/"))
@@ -45,3 +50,17 @@
 (require 'setup-packages)
 (require 'setup-prog)
 (require 'setup-keys)
+
+(require 'init-utils)
+(require 'init-elpa)
+(require 'init-auto-complete)
+(require 'init-tabbar)
+(require 'init-editing-utils)
+(require 'init-evil)
+(require 'init-fonts)
+(require 'init-git)
+(require 'init-ido)
+(require 'init-recentf)
+(require 'init-tabbar)
+(require 'init-themes)
+(require 'init-custom)
