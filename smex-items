@@ -1,17 +1,18 @@
 
 ;; ----- smex-history -----
 (
+ eval-buffer
  ediff-revision
  cd
  5x5
  arp
  dbx
  dig
- ede
 )
 
 ;; ----- smex-data -----
 (
  (light . 2)
  (ediff-revision . 1)
+ (eval-buffer . 1)
 )

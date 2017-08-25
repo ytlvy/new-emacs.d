@@ -165,6 +165,8 @@
 ;; 指针颜色
 (set-cursor-color "black")
 ;; 鼠标颜色
+(setq-default cursor-type 'bar)
+(set-cursor-color "#ffffff") 
 (set-mouse-color "black")
 ;; 背景和字体颜色
 (set-foreground-color "gainsboro")

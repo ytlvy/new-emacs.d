@@ -45,6 +45,8 @@
 
 ;; keybindings for custom functions
 (global-set-key [f6] 'toggle-selective-display)
+(global-set-key [f7] 'xah-new-empty-buffer)
+
 
 ;; org-mode keybindings
 (global-set-key [f12] 'org-agenda)
