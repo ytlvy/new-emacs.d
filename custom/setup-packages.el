@@ -62,6 +62,10 @@
 ;; package duplicate-thing
 (require 'duplicate-thing)
 
+(require 'recentf)
+(setq recentf-max-saved-items 200
+      recentf-max-menu-items 15)
+(recentf-mode +1)
 
 (require 'neotree)
 (global-set-key [f8] 'neotree-toggle)

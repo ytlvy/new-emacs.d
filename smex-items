@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ rename-buffer
  eval-buffer
  ediff-revision
  cd
  5x5
  arp
  dbx
- dig
 )
 
 ;; ----- smex-data -----
@@ -15,4 +15,5 @@
  (light . 2)
  (ediff-revision . 1)
  (eval-buffer . 1)
+ (rename-buffer . 1)
 )

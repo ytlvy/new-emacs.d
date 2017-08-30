@@ -79,3 +79,8 @@
 
 ;;F10 显示/隐藏菜单栏 ;; M-x menu-bar-open
 ;;(global-set-key (kbd "F10") 'menu-bar-mode)
+
+(global-set-key (kbd "C-x k") 'xah-close-current-buffer)
+(global-set-key (kbd "C-S-t") 'xah-open-last-closed) ; control+shift+t
+
+(global-set-key (kbd "C-c f") 'recentf-ido-find-file)
