@@ -1,0 +1,36 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/gyj/Study/mygithub/CTest/" . "CPlus/")
+ ("/Users/gyj/Study/mygithub/" . "CTest/")
+ ("/Users/gyj/Study/" . "mygithub/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/gyj/Study/mygithub/CTest/CPlus/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ 
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/gyj/Study/mygithub/CTest/CPlus/" (22813 34727 0 0) "virtulTst.cpp" "uniqu_ptr.cpp" "transiform.cpp" "test.cpp" "TernaryTree.cpp" "TernaryTest.cpp" "templateTest2.cpp" "templateTest1.cpp" "templateTest.cpp" "template/" "STL/" "stackTest.cpp" "setTest.cpp" "reverseDelete.cpp" "reduceRuntime/" "prog1.cpp" "parameter/" "OverrideLib/" "ostream.cpp" "objectLifeTime/" "not1Test.cpp" "norTest/" "ifstream.cpp" "equal_range.cpp" "Dynamicallyload/" "DumpingLayout.cpp" "DLLTest/" "disassembly/" "copy_if.cpp" "conflict/" "classTest.cpp" "cistring.cpp" "CHybrid/" "C11/" "bitset.cpp" "autoTest.cpp" "a.out" ".DS_Store" "../" "./")
+
+ ("/Users/gyj/Study/mygithub/CTest/" (22692 17927 0 0) "ReversBeginner/" "README.md" "Puzzles/" "perspective/" "OS/" "OC/" "normalTest/" "Makefile" "LeetCode/" "GTAGS" "GRTAGS" "GPATH" "Dtrace/" "CPlus/" "Bash/" "Assembly/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/gyj/Study/mygithub/" (22685 30654 0 0) "wechatNoRevoke/" "practice-cpp/" "practice-c/" "KTOneFingerRotationGestureRecognizer/" "iTest/" "gmarketv2/" "CTest/" "AssemblyTest/" ".DS_Store" "../" "./")
+
+ ("/Users/gyj/Study/" (22783 5402 0 0) "YLPPlayerTest/" "Vendor/" "test.c" "RuntimeBrowser/" "other/" "objAtIndex.s" "mygithub/" "Linear Algebra/" "learn/" "iOS_Animations_by_Tutorials_v3.0/" "iOS_10_by_Tutorials_v1.0/" "iOS-Runtime-Headers/" ".DS_Store" "../" "./")
+
+ ("/Users/" (22499 47971 0 0) "Shared/" "gyj/" "Guest/" ".localized" "../" "./")
+
+ ("/Users/gyj/" (22813 33831 0 0) "Web/" "Tools/" "Study/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "http:/" "Hotfix/" "Dropbox/" "Downloads/" "Documents/" "Developer/" "Desktop/" "Creative Cloud Files/" "Calibre 书库/" "AT.postflight.66061" "Applications (Parallels)/" "Applications/" ".zshrc" ".zshenv" ".zsh_history" ".zsh-update" ".zcompdump-gyj的MacBook Pro-5.2" ".zcompdump-gyj的MacBook Pro-5.0.8" ".xvimrc" ".vscode/" ".vimrc" ".viminfo" ".vim_runtime/" ".vim_mru_files" ".vagrant.d/" ".Trash/" ".synx/" ".subversion/" ".stCommitMsg" ".ssh/" ".sogouinput/" ".ShadowsocksX/" ".sh_history" ".rnd" ".putty/" ".oracle_jre_usage/" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".mplayer/" ".matplotlib/" ".lldbinit" ".lldb/" ".lesshst" ".itmstransporter/" ".httpie/" ".hgignore_global" ".gnupg/" ".gitkraken/" ".gitk" ".gitignore_global" ".gitconfig" ".git-completion.bash" ".gemrc" ".gem/" ".emacs~" ".emacs.d/" ".emacs.conf" ".DS_Store" ".dropbox/" ".cups/" ".config/" ".cocoapods/" ".CFUserTextEncoding" ".cache/" ".bashrc~" ".bashrc" ".bash_profile" ".bash_history" ".atom/" ".aria2/" ".499481.padl" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

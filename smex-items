@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
- rename-buffer
- eval-buffer
- ediff-revision
+ package-autoremove
+ package-list-packages
  cd
  5x5
  arp
  dbx
+ dig
 )
 
 ;; ----- smex-data -----
 (
  (light . 2)
- (ediff-revision . 1)
- (eval-buffer . 1)
- (rename-buffer . 1)
+ (dark . 1)
+ (package-list-packages . 2)
+ (package-autoremove . 1)
 )
