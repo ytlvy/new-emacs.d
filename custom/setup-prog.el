@@ -26,7 +26,7 @@
 
 ;; python
 (add-hook 'python-mode-hook 'jedi:setup)
-;;(setq jedi:complete-on-dot t)
+(setq jedi:complete-on-dot t)
 
 ;; open .h files with c++-mode
 (add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))

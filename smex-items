@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ list-packages
+ jedi:install-server
+ rgrep
  package-autoremove
  package-list-packages
  cd
  5x5
- arp
- dbx
- dig
 )
 
 ;; ----- smex-data -----
@@ -16,4 +16,7 @@
  (dark . 1)
  (package-list-packages . 2)
  (package-autoremove . 1)
+ (rgrep . 2)
+ (jedi:install-server . 7)
+ (list-packages . 1)
 )

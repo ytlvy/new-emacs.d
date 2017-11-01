@@ -61,3 +61,6 @@ yasnippet
 zenburn-theme
 zygospore
 neotree
+elpy
+exec-path-from-shell
+flycheck
